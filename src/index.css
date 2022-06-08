@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.welcome {
+  width: auto;
+  height:400px;
+  margin: 5px;
+  position: relative;
+  bottom: 100px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.section {
+  border: 2px #F7BCAC solid;
+  flex: 4;
+  height: fit-content;
+  margin: 5px;
+  
+}
+
+.section2 {
+  border: 2px #F7BCAC solid;
+  flex: 2;
+  height: fit-content;
+  margin: 5px;
+  
+}
+
+.icon {
+  width: 250px;
+  height: auto;
+}
+
+.routes {
+  border: #F7BCAC solid 2px;
+  height: 400px;
+  width: 250px;
+  margin: 15px;
+}
+
+.main{
+  position: relative;
+  bottom: 75px;
+}
+
+.maintext{
+  text-align: center;
+  font-family: Roboto;
+  font-size: larger;
+  width: 50%;
+}
+
+.header {
+  text-decoration: underline;
+}
+
+.filltxt{
+  max-width: 80%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.rheaders {
+  height: 200px;
+  width: auto;
+}
+
+.mheaders {
+  height: 300px;
+  width: auto;
+}
+
+.btn {
+  font-family: Roboto;
+  background-color:#F7BCAC;
+  border: #F7BCAC solid;
+  box-shadow: 2px 2px 0 0 #c7d8ed;
+  margin: 5px;
+  border-radius: 8%;
+}
+
+.numfld{
+  font-family: Roboto;
+  font-size: larger;
+  border: 0;
+  text-align: right;
+  width: 50px;
+}
+
+.pfpic {
+  border: #F7BCAC 2px solid;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.pftxt {
+  font-size: larger;
+  text-align: center;
+  color: maroon;
+
+}
